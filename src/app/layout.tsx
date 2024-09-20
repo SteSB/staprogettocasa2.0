@@ -33,7 +33,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[white]`}
       >
         <Topnav />
-        <div className="mt-28 mb-16">
+        <div>
           {children}
         </div>
         <Footer />
