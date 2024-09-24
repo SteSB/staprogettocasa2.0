@@ -9,6 +9,6 @@ export async function GET() {
 
     return NextResponse.json(team);
   } catch (error) {
-    return NextResponse.json({ message: "Nessun progetto presente" }, { status: 500 });
+    return NextResponse.json({ message: "Nessun membro del team presente" }, { status: 500 });
   }
 }

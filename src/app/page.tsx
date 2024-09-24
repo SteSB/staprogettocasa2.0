@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div className="flex flex-col mt-20 mb-16">
 
-      {/* Hero Section */}
+      
       <div
         className="relative bg-cover bg-center bg-no-repeat overflow-hidden"
         style={{ height: '800px', backgroundImage: "url('/assets/home1.jpg')", backgroundAttachment: "fixed" }}
@@ -41,7 +41,7 @@ export default function Home() {
 
       <div className="h-20 bg-white"></div>
 
-      {/* Info Section */}
+      
       <div className="flex flex-col max-w-7xl mx-auto px-4 py-8">
         <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-12">
           <div className="lg:w-1/2 w-full flex items-center justify-center">
@@ -84,7 +84,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Services Section */}
+        
         <div className="text-black mt-24">
           <h2 className="text-2xl lg:text-4xl font-bold text-center mb-8">I nostri servizi</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -97,7 +97,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Logos Section */}
+       
         <div className="flex flex-wrap gap-8 items-center justify-center mt-32">
           <Image src="/assets/arca.jpg" alt="Arca" width={80} height={50} />
           <Image src="/assets/odatech.png" alt="Odatech" width={170} height={30} />
